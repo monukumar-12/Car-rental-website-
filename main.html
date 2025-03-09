@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Git Commands</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 20px;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: white;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #333;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        .command {
+            font-family: monospace;
+            background: #eee;
+            padding: 5px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Basic Git Commands</h1>
+
+    <table>
+        <tr>
+            <th>Command</th>
+            <th>Description</th>
+        </tr>
+        <tr>
+            <td><span class="command">git init</span></td>
+            <td>Initialize a new Git repository.</td>
+        </tr>
+        <tr>
+            <td><span class="command">git clone &lt;repo-url&gt;</span></td>
+            <td>Clone an existing repository from a remote server.</td>
+        </tr>
+        <tr>
+            <td><span class="command">git status</span></td>
+            <td>Check the status of files in the working directory.</td>
+        </tr>
+        <tr>
+            <td><span class="command">git add &lt;file&gt;</span></td>
+            <td>Add a file to the staging area.</td>
+        </tr>
+        <tr>
+            <td><span class="command">git commit -m "message"</span></td>
+            <td>Commit changes with a message.</td>
+        </tr>
+        <tr>
+            <td><span class="command">git push origin &lt;branch&gt;</span></td>
+            <td>Push committed changes to a remote branch.</td>
+        </tr>
+        <tr>
+            <td><span class="command">git pull origin &lt;branch&gt;</span></td>
+            <td>Fetch and merge changes from the remote branch.</td>
+        </tr>
+        <tr>
+            <td><span class="command">git branch</span></td>
+            <td>List all branches.</td>
+        </tr>
+        <tr>
+            <td><span class="command">git checkout &lt;branch&gt;</span></td>
+            <td>Switch to another branch.</td>
+        </tr>
+        <tr>
+            <td><span class="command">git merge &lt;branch&gt;</span></td>
+            <td>Merge another branch into the current branch.</td>
+        </tr>
+        <tr>
+            <td><span class="command">git log</span></td>
+            <td>Show commit history.</td>
+        </tr>
+        <tr>
+            <td><span class="command">git reset --hard HEAD~1</span></td>
+            <td>Undo the last commit.</td>
+        </tr>
+    </table>
+
+</body>
+</html>
